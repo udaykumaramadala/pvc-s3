@@ -1,0 +1,12 @@
+{
+  "name": "rpa-app",
+  "version": "1.0.0",
+  "description": "RPA service with direct S3 uploads",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.362.0"
+  }
+}
