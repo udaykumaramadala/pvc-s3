@@ -29,5 +29,5 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/poc-backend:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/poc-backend:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/rpa-app:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/rpa-app:${{ github.sha }}
